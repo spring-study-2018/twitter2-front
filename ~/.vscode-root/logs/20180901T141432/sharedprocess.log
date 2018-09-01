@@ -1,0 +1,85 @@
+[2018-09-01 14:14:36.624] [sharedprocess] [info] main {"machineId":"977d54d733d75a5d255af9825da1ffa8913d367f4f63a44c42d06991a6e60cf3"}
+[2018-09-01 14:14:36.662] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:36.674] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:36.677] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:36.684] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:36.760] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:14:36.766] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:14:36.768] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:14:37.684] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:37.685] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:45.372] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:45.374] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:45.375] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:45.447] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:14:45.450] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:14:47.912] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:14:47.912] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:10.571] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:16.629] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-09-01 14:15:17.413] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:17.414] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:17.415] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:17.471] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:15:17.473] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:15:17.522] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:17.549] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:15:17.939] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:17.967] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:15:17.971] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:17.996] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:15:18.269] [sharedprocess] [info] Installing extension: vetur
+[2018-09-01 14:15:18.271] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-01 14:15:29.085] [sharedprocess] [info] Downloaded extension: vetur /tmp/e112ceba-4cbc-40fa-bb0b-cf143c499bda
+[2018-09-01 14:15:53.056] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.octref.vetur-0.12.6: octref.vetur-0.12.6
+[2018-09-01 14:15:53.057] [sharedprocess] [info] Renamed to /root/.vscode/extensions/octref.vetur-0.12.6
+[2018-09-01 14:15:53.057] [sharedprocess] [info] Installation completed. octref.vetur-0.12.6
+[2018-09-01 14:15:53.121] [sharedprocess] [info] Extensions installed successfully: octref.vetur
+[2018-09-01 14:15:53.241] [sharedprocess] [info] Scanned user extensions: 1
+[2018-09-01 14:15:53.281] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:03.619] [sharedprocess] [info] Installing extension: vue-snippets
+[2018-09-01 14:16:03.621] [sharedprocess] [info] Scanned user extensions: 1
+[2018-09-01 14:16:04.700] [sharedprocess] [info] Downloaded extension: vue-snippets /tmp/fced9a21-02ed-4d0e-95da-45e826808263
+[2018-09-01 14:16:04.745] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.hollowtree.vue-snippets-0.1.8: hollowtree.vue-snippets-0.1.8
+[2018-09-01 14:16:04.745] [sharedprocess] [info] Renamed to /root/.vscode/extensions/hollowtree.vue-snippets-0.1.8
+[2018-09-01 14:16:04.745] [sharedprocess] [info] Installation completed. hollowtree.vue-snippets-0.1.8
+[2018-09-01 14:16:04.755] [sharedprocess] [info] Extensions installed successfully: hollowtree.vue-snippets
+[2018-09-01 14:16:04.909] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-01 14:16:04.941] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:05.196] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-01 14:16:05.198] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-01 14:16:05.199] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-01 14:16:05.251] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:05.253] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:05.256] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:12.223] [sharedprocess] [info] Installing extension: JavaScriptSnippets
+[2018-09-01 14:16:12.225] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-01 14:16:13.050] [sharedprocess] [info] Downloaded extension: JavaScriptSnippets /tmp/c5573626-06ec-4439-8de2-4a8f5c07619b
+[2018-09-01 14:16:13.072] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.xabikos.javascriptsnippets-1.7.0: xabikos.javascriptsnippets-1.7.0
+[2018-09-01 14:16:13.073] [sharedprocess] [info] Renamed to /root/.vscode/extensions/xabikos.javascriptsnippets-1.7.0
+[2018-09-01 14:16:13.073] [sharedprocess] [info] Installation completed. xabikos.javascriptsnippets-1.7.0
+[2018-09-01 14:16:13.100] [sharedprocess] [info] Extensions installed successfully: xabikos.javascriptsnippets
+[2018-09-01 14:16:13.240] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:13.270] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:55.722] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:55.722] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:55.724] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:55.737] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:55.738] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:55.750] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:55.803] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:55.805] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:55.807] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:55.809] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-01 14:16:55.922] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:58.934] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:16:58.935] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:21:58.969] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:26:58.985] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:31:59.004] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:36:59.024] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:41:59.031] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:46:59.047] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:51:59.063] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 14:56:59.082] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-01 15:01:59.101] [sharedprocess] [info] Scanned user extensions: 3
