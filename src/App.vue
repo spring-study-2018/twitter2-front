@@ -32,7 +32,7 @@ export default {
 
 ul {
     list-style: none;
-    padding:10px 0 10px 0;
+    padding:0 0 10px 0;
   }
   li {
     padding:20px;

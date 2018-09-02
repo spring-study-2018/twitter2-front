@@ -8,9 +8,9 @@
             <slot name="header">
               <img src="@/assets/default-user.png"/>
               <span>{{tweet.userName}}</span>
-               <button class="modal-close-button" @click="$emit('close')">
+               <a class="modal-close-button" @click="$emit('close')">
                 X
-              </button>
+              </a>
             </slot>
           </div>
 
@@ -18,6 +18,30 @@
             <slot name="body">
               <div class="tweet-content">
                 {{tweet.content}}
+              </div>
+              <div class="comment-write-box" >
+                <div class="writable" :class="{extend: extendFlag}" @keyup="updateText($event)" contenteditable="true" @focus="extendBox" @blur="focusOut">
+                        {{userText}}
+                  <span v-show="!extendFlag">What's on your mind?</span>
+                </div>
+                <div class="user-img">
+                  <img src="@/assets/default-user.png"/>
+                </div>
+
+                <div v-show="extendFlag" class="button-list">
+                  <button type="button" @click="tweet">Reply</button>
+                </div>
+              </div>
+              <div class="comment-list">
+                <ul>
+                  <li v-for="comment in commentList" :key="comment.commentID" class="comment-li">
+                    <img src="@/assets/default-user.png"/>
+                    <span>{{tweet.userName}}</span>
+                    <div class="comment-text">
+                      <span>{{comment.comment}}</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </slot>
           </div>
@@ -36,7 +60,57 @@
 <script>
 export default {
   name: 'timeline-detail',
-  props: ['tweet']
+  props: ['tweet'],
+  data () {
+    return {
+      extendFlag: false,
+      userText: '',
+      commentList: [
+        {
+          userID: 1,
+          commentID: 1,
+          userName: 'Kevin',
+          comment: `ya lol, I couldn't push myself to listen to BTS, i really didn't like kpop, but i like tapping games so when i heard of superstar bts i played it and after listening and playing for a week, i found myself enjoying their music and now here i am selling my life for them`,
+          postDate: '2018-09-02 12:00'
+        },
+        {
+          userID: 1,
+          commentID: 2,
+          userName: 'Kevin',
+          comment: 'Hi',
+          postDate: '2018-09-02 12:00'
+        },
+        {
+          userID: 1,
+          commentID: 3,
+          userName: 'Kevin',
+          comment: 'Hi',
+          postDate: '2018-09-02 12:00'
+        },
+        {
+          userID: 1,
+          commentID: 4,
+          userName: 'Kevin',
+          comment: 'Hi',
+          postDate: '2018-09-02 12:00'
+        }
+      ]
+    }
+  },
+  methods: {
+    extendBox () {
+      this.extendFlag = true
+    },
+    focusOut () {
+      if (this.userText === '') {
+        this.extendFlag = false
+        this.$forceUpdate()
+      }
+    },
+    updateText (event) {
+      this.userText = event.target.innerText
+    }
+  }
 }
 </script>
 
@@ -63,7 +137,6 @@ export default {
   width: 640px;
   text-align: center;
   margin: 0px auto;
-  padding: 20px 30px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
@@ -73,13 +146,13 @@ export default {
 
 .modal-header {
   text-align: left;
+  padding: 20px 30px;
 }
 
 .modal-header img { width:28px} 
 .modal-header span { padding-left:20px;position:relative;top:-7px;font-weight: bold} 
 
 .modal-body {
-  padding: 20px 0;
 }
 
 .modal-default-button {
@@ -117,6 +190,61 @@ export default {
   cursor: pointer;
 }
 .tweet-content{
+  padding: 0 30px 10px 30px;
   text-align: left;
 }
+
+ .comment-write-box {
+    background: #a1a1a1;
+    color:#1DA1F2;
+    background: #E8F5FD;
+    padding: 10px 0 10px 0;
+  }
+  .comment-write-box .writable {
+    width:510px;
+    margin-right:10px;
+    float: right;
+    position: relative;
+    right:20px;
+    border:1px solid #1DA1F2;
+    border-radius:5px;
+    padding:5px 10px 5px 10px;
+    background: #fff;
+    color: #a1a1a1;
+    text-align: left;
+  }
+  .comment-write-box .user-img > img{
+    width:28px;
+    position: relative;
+    left:-20px;
+  }
+
+  .comment-write-box .writable:focus {
+    outline: none;
+  }
+  .comment-write-box .writable.extend {
+    height: 80px;
+    color:#000;
+  }
+  .comment-write-box .button-list {
+    padding: 10px 0 10px 0;
+    display: inline-block;
+    width: 600px;
+    text-align: right;
+  }
+  .comment-list .comment-li {
+    text-align: left;
+  }
+  .comment-list .comment-li > span{
+    font-weight: bold;
+    padding-left:20px;
+    position: relative;
+    top:-7px;
+  }
+  .comment-list .comment-li > img {
+    width:28px;
+  }
+  .comment-list .comment-li .comment-text {
+    padding:10px 0
+  }
 </style>
